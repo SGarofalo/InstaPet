@@ -1,0 +1,84 @@
+.titulo{
+     /* estilos generales para el título */
+    font-family: "Life of Pets", sans-serif;
+    text-align: center;
+    color: #e60000;
+    font-size: 100px;
+    text-shadow: 1px 1px #000000; /*  agrego sombra al texto */
+    text-decoration: underline; /* subrayar titulo */
+    margin-bottom: 10px; /* reducir margen inferior */
+    margin-top: 20px;
+}
+  
+.subti{
+       /* estilos generales para el subtítulo */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(56, 58, 175);
+    text-shadow: 1px 1px #9bc4fa; 
+    text-align: center;
+    margin-top: 10px; /* reducir margen superior */
+  }
+  
+.contenedor{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px; 
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    background-color: #ffffff;
+    border: 5px solid #e60000; /* agrego grosor y color rojo al borde */
+    border-radius: 10px; /* redondeo el cuadro */
+    position:relative;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="color"] {
+width: 50%;
+padding: 4px;
+margin-bottom: 10px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+}
+    
+input[type="color"] {
+    appearance: auto;
+    width: 50px;
+    height: 27px;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: buttontext;
+    border-width: 1px;
+    border-style: solid;
+    border-color: buttonborder;
+    border-image: initial;
+    padding: 1px 2px;
+    margin-bottom: 10px
+  }
+
+textarea{
+    height: 100%; /* establece la altura al 100% de forma vertical */
+    width: 100%; /* establece el ancho al 100% */
+    resize: none; /* Desactiva la capacidad de redimensionar*/
+    box-sizing: border-box; /* incluye el padding en la altura y el ancho */
+  }
+  
+button[type="submit"] {
+    background-color: #e60000;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    cursor: pointer; /*  le pongo la manito a los botones*/
+  }
+  
+button[type="submit"]:hover {
+    background-color: #fafafa;
+    color: #e60000; /* pongo la fuente de color rojo cuando el cursor se apoya en el boton */
+  }
+  
+  
